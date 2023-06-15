@@ -1,3 +1,68 @@
-.div-container{
-    border: 2px solid black;
+.div-cajas{
+    
+    border: 1px dashed rgb(0, 0, 0);
+	width: 500px;
+	height: 500px;
+	font-size: 0;
+    
+    
+    
+    
 }
+.son{
+    width: 230px;
+	height: 230px;
+	padding: 10px;
+    display: inline-block;
+    padding-bottom: 0;
+    
+    
+}
+
+.div-cajas :nth-child(1){
+    background-color: lightblue;
+    
+    
+}
+.div-cajas :nth-child(2) {
+    background-color: red;
+
+}
+.div-cajas :nth-child(3) {
+    background-color: salmon;
+
+    
+    
+}
+.div-cajas :nth-child(4) {
+    background-color: green;
+    
+    
+} 
+#caja-1 {
+    border-top: 10px solid gray;
+    border-bottom: 10px solid gray;
+    
+}
+#caja-2{
+    border-top: 10px solid gray;
+    border-bottom: 10px solid gray;
+    
+}
+#caja-3{
+    border-left: 10px solid cyan;
+    border-right: 10px solid cyan;
+    padding-right: 0;
+    padding-left: 0;
+    
+    
+}
+#caja-4{
+    border-left: 10px solid cyan;
+    border-right: 10px solid cyan;
+    padding-right: 0;
+    padding-left: 0;
+
+
+}
+
